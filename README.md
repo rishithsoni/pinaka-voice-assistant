@@ -1,23 +1,25 @@
-# Pinaka v0.1
+# Pinaka (v0.1)
 
-Pinaka is an experimental Android project focused on learning voice input,
-background services, and Android security behavior.
+An experimental Android project exploring voice-based control and background services.
 
-## Current Features (v0.1)
-- App launch & permission handling
-- Microphone access testing
-- Voice-triggered actions (basic)
-- Foreground service exploration
+## Current Status (v0.1)
+- App launch and core service setup
+- Basic voice input handling
+- Call-related command triggers
+- Permission handling for microphone access
 
 ## Known Issues
-- Microphone instability due to Android restrictions
-- Device-specific behavior
-- Service lifecycle bugs
+- Microphone stability affected by Android security restrictions
+- Background voice services are not fully reliable yet
 
-## Planned (v0.2)
-- More stable voice commands
-- Message-based actions
-- Basic authentication before actions
+## Planned Improvements (v0.2)
+- Message-based actions via voice commands
+- Improved background microphone handling
+- Reduced crashes and better command accuracy
 
-This project is still in development.
-Learning and improving.
+## Long-Term Goal
+To develop a secure voice-controlled system where actions are performed only by the authorized user, using voice recognition and/or additional authentication.
+
+## Note
+This project is under active development.
+Still learning, experimenting, and improving.
